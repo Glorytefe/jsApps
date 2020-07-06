@@ -19,7 +19,7 @@ let currentTime = function (){
         meredian = "PM"
     }
 // set clock to 12hrs clock 
-    if (hours >= noon){
+    if (hours > noon){
         hours = hours - 12;
     }
 // set minutes
